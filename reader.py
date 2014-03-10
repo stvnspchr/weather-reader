@@ -3,6 +3,11 @@ import urllib2
 import StringIO
 import os
 
+begin-month = 1
+end-month = 3
+begin-day = 1
+end-day = 10
+
 for m in range(1,5):				# Months
 	for d in range(1,3):			# Days
 		# Open webpage and read data
