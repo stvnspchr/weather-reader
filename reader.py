@@ -4,7 +4,7 @@ import StringIO
 
 for m in range(1,5):
 	for d in range(1,3):
-		url = 'http://www.wunderground.com/history/airport/KMLE/2014/' + str(m) + '/' + str(d) + '/DailyHistory.html?req_city=Austin&req_state=TX&req_statename=Texas&format=1'
+		url = 'http://www.wunderground.com/history/airport/KMLE/2014/' + str(m) + '/' + str(d) + '/DailyHistory.html?req_city=Ashland&req_state=NE&req_statename=Nebraska&format=1'
 		print url
 		page = urllib2.urlopen(url)
 		cr = csv.reader(page)
